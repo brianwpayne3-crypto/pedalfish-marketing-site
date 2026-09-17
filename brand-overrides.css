@@ -32,6 +32,71 @@
   }
 }
 
+/* Future intelligence concept uses the existing PedalFish app shell and density. */
+.intelligence-product{
+  margin-top:70px;
+  overflow:hidden;
+  border:1px solid #c9dfe9;
+  border-radius:18px;
+  background:#f8fbfd;
+  box-shadow:0 24px 55px rgba(10,43,69,.14),0 0 0 1px #c9dfe9;
+}
+
+.intelligence-product .mini-app-nav{
+  box-sizing:border-box;
+  width:100%;
+  min-height:58px;
+  padding:7px 12px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:6px;
+  overflow:hidden;
+  background:#0a2b45;
+  color:#fff;
+  font-size:clamp(.43rem,.55vw,.55rem);
+  font-weight:760;
+}
+
+.intelligence-product .mini-app-brand{display:flex;align-items:center;gap:6px;white-space:nowrap;flex:0 0 auto}
+.intelligence-product .mini-app-brand img{display:block;width:40px;height:40px;min-width:40px;object-fit:contain;flex:0 0 40px}
+.intelligence-product .mini-app-nav>span:not(.mini-app-brand){white-space:nowrap;flex:0 1 auto}
+.intelligence-product .mini-app-nav .active{padding:7px 8px;border-radius:6px;background:#315d78}
+
+.intelligence-canvas{padding:18px;background:#f8fbfd;color:#172d3b}
+.intelligence-heading{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:14px}
+.intelligence-heading h4{margin:1px 0 2px;color:#102a43;font-size:1.25rem;letter-spacing:-.035em}
+.intelligence-heading p{margin:3px 0 0;color:#647b89;font-size:.58rem}
+.intelligence-concept{padding:7px 9px;border:1px solid #c9dfe9;border-radius:6px;color:#4f7083;font-size:.48rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+
+.intelligence-items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.intelligence-item{min-width:0;padding:13px;border:1px solid #d5e4ec;border-radius:9px;background:#fff;box-shadow:0 3px 8px rgba(10,43,69,.04)}
+.intelligence-item-head{display:flex;align-items:start;justify-content:space-between;gap:8px;margin-bottom:12px}
+.intelligence-kicker{color:#6d8390;font-size:.45rem;font-weight:900;letter-spacing:.12em;line-height:1.2}
+.intelligence-status{padding:4px 6px;border-radius:999px;background:#e8f5fc;color:#0b6fae;font-size:.4rem;font-weight:850;line-height:1.1;text-align:right}
+.intelligence-item h5{margin:0;color:#17364b;font-size:.92rem;line-height:1.1;letter-spacing:-.025em}
+.intelligence-customer{margin:3px 0 12px;color:#607987;font-size:.56rem}
+.intelligence-summary{margin:0;min-height:78px;color:#35596e;font-size:.57rem;line-height:1.45}
+.intelligence-summary strong{color:#17364b;font-size:.65rem}
+.intelligence-action{display:inline-block;margin-top:14px;padding:7px 9px;border-radius:6px;background:#0a2b45;color:#fff;font-size:.5rem;font-weight:800;line-height:1.1}
+
+.intelligence-goal{
+  margin-top:30px;
+  padding-left:18px;
+  border-left:3px solid var(--blue);
+  color:var(--brand-deep);
+  font-size:1.18rem;
+  font-weight:800;
+}
+
+@media(max-width:800px){
+  .intelligence-product{margin-top:48px;}
+  .intelligence-product .mini-app-nav span:not(.mini-app-brand):not(.active){display:none}
+  .intelligence-heading{align-items:start;}
+  .intelligence-items{grid-template-columns:1fr;}
+  .intelligence-summary{min-height:0;}
+}
+
 /* Header navigation continuity with the approved marketing display system. */
 .site-nav a{
   font-family:Impact,Haettenschweiler,"Arial Narrow Bold","Arial Black",sans-serif;
