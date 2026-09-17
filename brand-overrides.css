@@ -9,55 +9,12 @@
   --brand-soft: #e8f5fc;
   --line: #c8dce8;
 }
+.site-header,.site-header::before{background:rgba(251,253,255,.96)}.site-header{box-shadow:0 1px 0 rgba(10,43,69,.10)}.site-nav a{color:#17364b}.eyebrow{color:#147eb9}h1{color:#092d47}.hero-lede,.hero-footnote{color:#536b7a}.hero::before{background:rgba(39,160,224,.14)}.hero::after{background:rgba(112,197,238,.13)}.scribble{color:#147eb9}.scribble::after{border-color:#45a9dc}.button{background:var(--brand-deep)}.secondary-button{color:#17364b}
+.app-frame{border-color:rgba(232,245,252,.98);box-shadow:0 35px 80px rgba(14,83,124,.17),0 10px 24px rgba(14,83,124,.08),0 0 0 1px #c9dfe9}.app-nav{background:#0a2b45}.app-nav strong{background:#315d78}.app-body{background:#f8fbfd;color:#172d3b}.ready{background:#edf7fc}.job-card .next{color:#0b6fae}.app-brand{width:auto;height:52px;padding-left:0;background:none;gap:8px}.app-brand img{display:block;width:48px;height:48px;flex:0 0 48px;object-fit:contain;object-position:center}.statement{background:var(--brand-deep)}.difference{background:var(--brand-soft)}.difference-copy{color:#35596e}.product-placeholder{color:#4f7083;box-shadow:10px 10px 0 var(--brand-soft)}
 
-/* Brand palette: pull the site back toward the blue/navy in the PedalFish marks. */
-.site-header,
-.site-header::before { background: rgba(251,253,255,.96); }
-.site-header { box-shadow: 0 1px 0 rgba(10,43,69,.10); }
-.site-nav a { color: #17364b; }
-.eyebrow { color: #147eb9; }
-h1 { color: #092d47; }
-.hero-lede,
-.hero-footnote { color: #536b7a; }
-.hero::before { background: rgba(39,160,224,.14); }
-.hero::after { background: rgba(112,197,238,.13); }
-.scribble { color: #147eb9; }
-.scribble::after { border-color: #45a9dc; }
-.button { background: var(--brand-deep); }
-.secondary-button { color: #17364b; }
-
-/* The Shop View treatment should belong to the same visual family. */
-.app-frame {
-  border-color: rgba(232,245,252,.98);
-  box-shadow: 0 35px 80px rgba(14,83,124,.17), 0 10px 24px rgba(14,83,124,.08), 0 0 0 1px #c9dfe9;
-}
-.app-nav { background: #0a2b45; }
-.app-nav strong { background: #315d78; }
-.app-body { background: #f8fbfd; color: #172d3b; }
-.ready { background: #edf7fc; }
-.job-card .next { color: #0b6fae; }
-
-/* Use the actual corrected PNG. Do not replace it with a CSS background. */
-.app-brand {
-  width: auto;
-  height: 52px;
-  padding-left: 0;
-  background: none;
-  gap: 8px;
-}
-.app-brand img {
-  display: block;
-  width: 48px;
-  height: 48px;
-  flex: 0 0 48px;
-  object-fit: contain;
-  object-position: center;
-}
-
-.statement { background: var(--brand-deep); }
-.difference { background: var(--brand-soft); }
-.difference-copy { color: #35596e; }
-.product-placeholder {
-  color: #4f7083;
-  box-shadow: 10px 10px 0 var(--brand-soft);
-}
+/* Intake product surface — same application family as the hero Shop View. */
+.intake-product{min-height:0;padding:0;border:0;background:transparent;box-shadow:none;text-transform:none;letter-spacing:normal;display:block;overflow:hidden;border-radius:18px;box-shadow:0 24px 55px rgba(10,43,69,.14),0 0 0 1px #c9dfe9;transform:rotate(.25deg)}
+.intake-product .mini-app-nav{min-height:58px;padding:7px 14px;display:flex;align-items:center;gap:15px;background:#0a2b45;color:#fff;font-size:.55rem;font-weight:760}
+.intake-product .mini-app-brand{display:flex;align-items:center;gap:7px;margin-right:auto;white-space:nowrap}.intake-product .mini-app-brand img{width:40px;height:40px;object-fit:contain}.intake-product .mini-app-nav span{white-space:nowrap}.intake-product .mini-app-nav .active{padding:7px 9px;border-radius:6px;background:#315d78}
+.intake-canvas{padding:22px;background:#f8fbfd;color:#172d3b}.intake-saved{display:flex;align-items:center;gap:9px;margin-bottom:13px;color:#0b6fae;font-size:.55rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.intake-check{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#dff3fd;color:#0876b7;font-size:.85rem}.intake-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:14px}.intake-heading h4{margin:0;color:#102a43;font-size:1.25rem;letter-spacing:-.035em}.intake-heading p{margin:3px 0 0;color:#647b89;font-size:.58rem}.intake-print{padding:8px 11px;border-radius:6px;background:#0a2b45;color:#fff;font-size:.55rem;font-weight:800;white-space:nowrap}.ack-card{padding:20px;background:#fff;border:1px solid #d5e4ec;border-radius:10px;box-shadow:0 4px 12px rgba(10,43,69,.05)}.ack-top{display:flex;justify-content:space-between;gap:20px;padding-bottom:13px;border-bottom:2px solid #28465a}.ack-shop{display:flex;align-items:center;gap:8px;font-size:.68rem;font-weight:900}.ack-shop img{width:34px;height:34px;object-fit:contain}.ack-meta{text-align:right;color:#617987;font-size:.52rem;line-height:1.45}.ack-title{display:flex;justify-content:space-between;gap:20px;align-items:end;padding:13px 0 9px;border-bottom:1px solid #d9e5eb}.ack-title strong{font-size:.9rem}.ack-title span{font-size:.5rem;text-align:right}.ack-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:12px 0;border-bottom:1px solid #d9e5eb}.ack-label{display:block;margin-bottom:4px;color:#6d8390;font-size:.45rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.ack-value{color:#213b4b;font-size:.6rem;font-weight:750;line-height:1.45}.ack-section{padding:11px 0;border-bottom:1px solid #d9e5eb}.ack-service{display:flex;justify-content:space-between;gap:14px}.ack-photo-row{display:grid;grid-template-columns:86px 1fr;gap:16px;align-items:end;padding:12px 0;border-bottom:1px solid #d9e5eb}.ack-bike-photo{height:66px;border-radius:7px;background:linear-gradient(145deg,#dcebf3,#f7fbfd);border:1px solid #cbdde7;display:grid;place-items:center;color:#4d7085;font-size:.48rem;font-weight:800;text-align:center}.ack-commitment{margin-top:11px;padding:9px 10px;border-left:3px solid #1596e8;background:#edf7fc;color:#24485d;font-size:.55rem;font-weight:750;line-height:1.35}
+@media(max-width:800px){.intake-product .mini-app-nav span:not(.mini-app-brand):not(.active){display:none}.intake-product .mini-app-nav{gap:8px}.intake-canvas{padding:14px}.ack-card{padding:14px}}
