@@ -31,3 +31,12 @@
     letter-spacing:-.045em;
   }
 }
+
+/* Header navigation continuity with the approved marketing display system. */
+.site-nav a{
+  font-family:Impact,Haettenschweiler,"Arial Narrow Bold","Arial Black",sans-serif;
+  font-size:.92rem;
+  font-weight:900;
+  letter-spacing:-.015em;
+  line-height:1;
+}
