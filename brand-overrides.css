@@ -105,3 +105,70 @@
   letter-spacing:-.015em;
   line-height:1;
 }
+
+/* Diagnostics concept keeps the unresolved problem and mechanic record distinct. */
+.diagnostics-product{
+  margin-top:70px;
+  overflow:hidden;
+  border:1px solid #c9dfe9;
+  border-radius:18px;
+  background:#f8fbfd;
+  box-shadow:0 24px 55px rgba(10,43,69,.14),0 0 0 1px #c9dfe9;
+}
+.diagnostics-product .mini-app-nav{
+  box-sizing:border-box;
+  width:100%;
+  min-height:58px;
+  padding:7px 12px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:6px;
+  overflow:hidden;
+  background:#0a2b45;
+  color:#fff;
+  font-size:clamp(.43rem,.55vw,.55rem);
+  font-weight:760;
+}
+.diagnostics-product .mini-app-brand{display:flex;align-items:center;gap:6px;white-space:nowrap;flex:0 0 auto}
+.diagnostics-product .mini-app-brand img{display:block;width:40px;height:40px;min-width:40px;object-fit:contain;flex:0 0 40px}
+.diagnostics-product .mini-app-nav>span:not(.mini-app-brand){white-space:nowrap;flex:0 1 auto}
+.diagnostics-product .mini-app-nav .active{padding:7px 8px;border-radius:6px;background:#315d78}
+.diagnostics-canvas{padding:18px;background:#f8fbfd;color:#172d3b}
+.diagnostics-heading{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:14px}
+.diagnostics-heading h4{margin:1px 0 2px;color:#102a43;font-size:1.25rem;letter-spacing:-.035em}
+.diagnostics-heading p{margin:3px 0 0;color:#647b89;font-size:.58rem}
+.diagnostics-concept{padding:7px 9px;border:1px solid #c9dfe9;border-radius:6px;color:#4f7083;font-size:.48rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.diagnostics-job{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,1fr);gap:18px;align-items:center;padding:13px;border-radius:11px;background:#0d241d;color:#fff}
+.diagnostics-job h5{margin:0 0 2px;font-size:.92rem;line-height:1.1;letter-spacing:-.025em}
+.diagnostics-job p{margin:0;color:rgba(255,255,255,.75);font-size:.52rem}
+.diagnostics-reported{position:relative;padding:11px 12px 10px;border-left:3px solid #45a9dc;background:rgba(255,255,255,.1)}
+.diagnostics-label{display:block;margin-bottom:5px;color:#6d8390;font-size:.42rem;font-weight:900;letter-spacing:.12em;line-height:1.2;text-transform:uppercase}
+.diagnostics-reported .diagnostics-label{color:#a9d8ed}
+.diagnostics-reported strong{display:block;padding-right:70px;font-size:.7rem;line-height:1.25}
+.diagnostics-unresolved{position:absolute;top:10px;right:10px;padding:4px 6px;border-radius:999px;background:#fbe9d9;color:#9a5b24;font-size:.4rem;font-weight:850;line-height:1.1}
+.diagnostics-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:10px;margin-top:10px}
+.diagnostics-panel{min-width:0;padding:11px;border:1px solid #d5e4ec;border-radius:9px;background:#fff;box-shadow:0 3px 8px rgba(10,43,69,.04)}
+.diagnostics-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.diagnostics-panel h5{margin:0;color:#17364b;font-size:.82rem;letter-spacing:-.025em}
+.diagnostics-status{padding:4px 7px;border-radius:999px;background:#e8f5fc;color:#0b6fae;font-size:.43rem;font-weight:850;line-height:1.1;white-space:nowrap}
+.recorded-status{background:#e6f3e9;color:#377b51}
+.diagnostics-check{margin-top:6px;padding:7px 8px;display:grid;grid-template-columns:20px minmax(0,1fr) auto;gap:7px;align-items:center;border:1px solid #dce7ec;border-left:3px solid #aebfc8;border-radius:6px;background:#fff}
+.diagnostics-check.done{border-left-color:#4c9a69}
+.diagnostics-check strong{display:block;color:#213b4b;font-size:.52rem}
+.diagnostics-check small{display:block;color:#748792;font-size:.4rem}
+.diagnostics-check>b{font-size:.42rem;color:#5f7582}
+.diagnostics-check.done>b{color:#377b51}
+.diagnostic-finding{padding:10px;border-left:3px solid #2582b8;background:#edf7fc}
+.diagnostic-finding p,.diagnostics-next p{margin:0;color:#24485d;font-size:.57rem;line-height:1.4}
+.diagnostic-evidence,.diagnostics-next{margin-top:9px;padding-top:9px;border-top:1px solid #d9e5eb}
+.diagnostic-evidence strong{display:block;color:#35596e;font-size:.52rem;line-height:1.35}
+
+@media(max-width:800px){
+  .diagnostics-product{margin-top:48px}
+  .diagnostics-product .mini-app-nav span:not(.mini-app-brand):not(.active){display:none}
+  .diagnostics-heading{align-items:start}
+  .diagnostics-job,.diagnostics-layout{grid-template-columns:1fr}
+  .diagnostics-reported strong{padding-right:0}
+  .diagnostics-panel-head{align-items:start}
+}
