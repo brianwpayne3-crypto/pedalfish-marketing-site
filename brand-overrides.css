@@ -1,0 +1,63 @@
+:root {
+  --ink: #102a43;
+  --muted: #536b7a;
+  --paper: #fbfdff;
+  --paper-deep: #eaf6fc;
+  --blue: #1596e8;
+  --blue-dark: #0b5f9c;
+  --brand-deep: #0a2b45;
+  --brand-soft: #e8f5fc;
+  --line: #c8dce8;
+}
+
+/* Brand palette: pull the site back toward the blue/navy in the PedalFish marks. */
+.site-header,
+.site-header::before { background: rgba(251,253,255,.96); }
+.site-header { box-shadow: 0 1px 0 rgba(10,43,69,.10); }
+.site-nav a { color: #17364b; }
+.eyebrow { color: #147eb9; }
+h1 { color: #092d47; }
+.hero-lede,
+.hero-footnote { color: #536b7a; }
+.hero::before { background: rgba(39,160,224,.14); }
+.hero::after { background: rgba(112,197,238,.13); }
+.scribble { color: #147eb9; }
+.scribble::after { border-color: #45a9dc; }
+.button { background: var(--brand-deep); }
+.secondary-button { color: #17364b; }
+
+/* The Shop View treatment should belong to the same visual family. */
+.app-frame {
+  border-color: rgba(232,245,252,.98);
+  box-shadow: 0 35px 80px rgba(14,83,124,.17), 0 10px 24px rgba(14,83,124,.08), 0 0 0 1px #c9dfe9;
+}
+.app-nav { background: #0a2b45; }
+.app-nav strong { background: #315d78; }
+.app-body { background: #f8fbfd; color: #172d3b; }
+.ready { background: #edf7fc; }
+.job-card .next { color: #0b6fae; }
+
+/* Use the actual corrected PNG. Do not replace it with a CSS background. */
+.app-brand {
+  width: auto;
+  height: 52px;
+  padding-left: 0;
+  background: none;
+  gap: 8px;
+}
+.app-brand img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.statement { background: var(--brand-deep); }
+.difference { background: var(--brand-soft); }
+.difference-copy { color: #35596e; }
+.product-placeholder {
+  color: #4f7083;
+  box-shadow: 10px 10px 0 var(--brand-soft);
+}
