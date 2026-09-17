@@ -5,3 +5,29 @@
 .work-canvas{box-sizing:border-box;width:100%;max-width:100%;overflow:hidden;padding:14px;background:#f8fbfd;color:#172d3b}.work-job{display:grid;grid-template-columns:105px minmax(0,1fr);gap:14px;align-items:center;padding:13px;border-radius:11px;background:#0d241d;color:#fff}.work-bike-photo{width:100%;height:72px;display:grid;place-items:center;border-radius:7px;background:#dcebf3;color:#45677a;font-size:.46rem;font-weight:850;letter-spacing:.08em}.work-kicker{display:block;margin-bottom:2px;font-size:.4rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase;opacity:.68}.work-job h4{margin:0 0 2px;font-size:1.05rem;line-height:1;letter-spacing:-.03em}.work-job p{margin:0 0 7px;font-size:.52rem;opacity:.75}.work-job strong{font-size:.6rem}.repair-plan,.checklist{box-sizing:border-box;width:100%;max-width:100%;margin-top:9px;padding:11px;border:1px solid #d5e4ec;border-radius:9px;background:#fff}.repair-plan-head,.checklist-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.repair-plan h5,.checklist h5{margin:0;color:#17364b;font-size:.82rem;letter-spacing:-.025em}.repair-plan-head>b{padding:7px 10px;border-radius:7px;background:#0a2b45;color:#fff;font-size:.7rem}.service-line{margin-top:8px;padding:9px;display:flex;justify-content:space-between;align-items:center;border:1px solid #d8e5eb;border-radius:7px}.service-line strong{display:block;font-size:.62rem}.service-line small{display:block;color:#6c818d;font-size:.45rem}.service-line>span,.progress-pill{padding:4px 7px;border-radius:999px;background:#e8f5fc;color:#0b6fae;font-size:.43rem;font-weight:850}.checklist{background:#fbfdff}.check-row{margin-top:6px;padding:7px 8px;display:grid;grid-template-columns:20px minmax(0,1fr) auto;gap:7px;align-items:center;border:1px solid #dce7ec;border-left:3px solid #aebfc8;border-radius:6px;background:#fff}.check-row.done{border-left-color:#4c9a69}.check-row.recorded{border-left-color:#2582b8}.checkmark{display:grid;place-items:center;width:17px;height:17px;border-radius:50%;background:#4c9a69;color:#fff;font-size:.55rem;font-weight:900}.checkmark.empty{background:#fff;border:1px solid #aebfc8}.check-row strong{display:block;color:#213b4b;font-size:.52rem}.check-row small{display:block;color:#748792;font-size:.4rem}.check-row>b{font-size:.42rem;color:#5f7582}.check-row.done>b{color:#377b51}.check-row.recorded>b{color:#0b6fae}
 .summary-canvas{box-sizing:border-box;width:100%;padding:16px;background:#f8fbfd;color:#172d3b}.summary-heading{display:flex;align-items:end;justify-content:space-between;gap:14px;margin-bottom:11px}.summary-heading h4{margin:1px 0 2px;font-size:1.05rem;letter-spacing:-.03em}.summary-heading p{margin:0;color:#647b89;font-size:.5rem}.summary-print{padding:8px 10px;border-radius:6px;background:#0a2b45;color:#fff;font-size:.48rem;font-weight:800;white-space:nowrap}.summary-sheet{padding:16px;background:#fff;border:1px solid #d5e4ec;border-radius:9px;box-shadow:0 4px 12px rgba(10,43,69,.05)}.summary-shop{display:flex;justify-content:space-between;align-items:center;gap:14px;padding-bottom:9px;border-bottom:2px solid #28465a;color:#617987;font-size:.45rem;text-align:right;line-height:1.35}.summary-shop-name{display:flex;align-items:center;gap:7px;color:#17364b;text-align:left;font-size:.62rem}.summary-shop-name img{display:block!important;width:30px!important;height:30px!important;max-width:30px!important;object-fit:contain}.summary-title{display:flex;justify-content:space-between;gap:16px;align-items:end;padding:10px 0 8px;border-bottom:1px solid #d9e5eb}.summary-title>div{display:flex;flex-direction:column;gap:2px}.summary-title>div:last-child{text-align:right}.summary-title span{color:#6d8390;font-size:.4rem;font-weight:900;letter-spacing:.1em}.summary-title strong{font-size:.78rem}.summary-title b{font-size:.5rem}.summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:9px 0;border-bottom:1px solid #d9e5eb}.summary-grid strong{display:block;font-size:.58rem}.summary-grid small{display:block;color:#6d8390;font-size:.43rem}.summary-work{padding:9px 0}.summary-service{display:flex;justify-content:space-between;gap:12px;font-size:.58rem}.summary-results{margin-top:8px;padding:8px;border:1px solid #d9e5eb;border-radius:5px;background:#fbfdff}.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px 14px;margin-top:5px}.result-grid span{display:flex;justify-content:space-between;gap:7px;color:#213b4b;font-size:.42rem}.result-grid b{color:#377b51;font-size:.4rem}.summary-total{display:flex;justify-content:space-between;gap:14px;padding-top:9px;border-top:2px solid #28465a;color:#102a43;font-size:.68rem}.summary-total b{font-size:.78rem}.summary-note{margin:6px 0 0;color:#718590;font-size:.4rem}.summary-product{font-size:initial!important;background:#f8fbfd!important;height:auto!important}
 @media(max-width:800px){.mini-app-nav span:not(.mini-app-brand):not(.active){display:none}.mini-app-nav{gap:8px}.intake-canvas{padding:14px}.ack-card{padding:14px}.work-job{grid-template-columns:80px minmax(0,1fr)}.work-bike-photo{height:62px}.summary-canvas{padding:12px}.summary-sheet{padding:12px}.result-grid{grid-template-columns:1fr}}
+
+/* Marketing display typography experiment. Product surfaces intentionally stay on their existing UI stack. */
+.hero-copy h1,
+.statement p,
+.section-intro h2,
+.difference-grid > div:first-child h2,
+.step-copy h3,
+.early-users h2{
+  font-family:Impact,Haettenschweiler,"Arial Narrow Bold","Arial Black",sans-serif;
+  font-weight:900;
+  letter-spacing:-.035em;
+  line-height:.94;
+}
+
+.statement p{
+  letter-spacing:-.02em;
+}
+
+@media(max-width:520px){
+  .hero-copy{width:100%;min-width:0;}
+  .hero-lede{width:100%;}
+  .hero-copy h1{
+    font-size:clamp(2.8rem,11vw,4rem);
+    letter-spacing:-.045em;
+  }
+}
