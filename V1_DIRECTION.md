@@ -93,6 +93,18 @@ Do not treat this as immutable. The page should be designed around comprehension
 
 V1 is not a Buy Now funnel. PedalFish is still learning with real shops. The CTA should invite independent shop owners/mechanics to talk, see PedalFish, and potentially become early users.
 
+## Domain and application URLs
+
+Current direction:
+
+- **`pedal-fish.com`** should be the public PedalFish marketing site. Someone hearing about PedalFish and visiting the primary domain should first land on the product/brand explanation rather than an application login screen.
+- **`app.pedal-fish.com`** should be the production PedalFish application. The marketing site can link existing users to this subdomain with a Sign in action when appropriate.
+- A future **`demo.pedal-fish.com`** may be useful for a distinct sandbox/demo experience if that remains part of the product strategy.
+
+Brian already owns `pedal-fish.com`; subdomains such as `app.pedal-fish.com` do **not** require purchasing additional domains. They are created through DNS and pointed at the appropriate hosting/deployment target.
+
+Keep the marketing site and application as separate deployment/codebase concerns. Using an application subdomain preserves the repository/infrastructure boundary already established between this static marketing site and the PedalFish production application. This URL structure does not imply an application rewrite or that the application must share hosting with the marketing site.
+
 ## Implementation
 
 - Separate repository from the PedalFish application.
