@@ -78,3 +78,63 @@ Do not force an arbitrary launch date. Revisit this as a product/company milesto
 This does **not** require final pricing, a mature integrations catalog, a large customer base, or a fully finished SaaS website. The question is whether the public product has crossed from private experiment into something Brian is intentionally putting into the world.
 
 When revisiting LinkedIn, consider whether **Founder** or **Founder & Builder / Technical Founder** best communicates the work without making PedalFish sound larger or more mature than it is. It is also reasonable for PedalFish and Sulcata to coexist as concurrent experience if both are genuinely active.
+
+## LinkedIn launch plan — tied to the active job search
+
+Treat putting PedalFish on LinkedIn as part of Brian's job-search positioning, not merely as a startup announcement.
+
+### Why it can help
+
+A consulting/advisory entry alone can be accurate but vague. PedalFish provides concrete evidence that Brian is actively building: identifying an operational problem, working inside the environment, designing product/workflows, building software, making architecture decisions, using agentic development methods, and working across operations, brand and go-to-market.
+
+For engineering-leadership/operator roles, the PedalFish entry should make recent hands-on product and technical work legible to a hiring manager rather than leave the recent period described only as consulting.
+
+### Threshold for putting it on LinkedIn
+
+Do **not** wait for PedalFish to look like a mature SaaS company. The practical threshold is:
+
+> Can someone click PedalFish from Brian's LinkedIn and encounter a real product/company presence that Brian would be comfortable discussing in an interview?
+
+Target the LinkedIn update after these near-term pieces are in place:
+
+1. finish the current marketing typography/polish pass;
+2. serve the public marketing site from `pedal-fish.com`;
+3. establish a basic credible About story;
+4. establish a real Early Access / contact path;
+5. make sure the public site contains nothing Brian would be uncomfortable having an interviewer explore.
+
+`app.pedal-fish.com` and a Sign in path strengthen the story and should follow as part of the deliberate public product structure, but do not create artificial blockers if the product/site is otherwise ready to represent publicly.
+
+Do **not** make pricing, a mature integrations catalog, a large customer base, or a finished multi-page SaaS website prerequisites.
+
+### How to represent it
+
+Leading title options:
+
+- **Technical Founder — PedalFish**
+- **Founder & Engineer — PedalFish**
+
+Avoid inflated startup titles such as CEO simply to create legitimacy. The title should emphasize that Brian is the person actually building the product and technical foundation.
+
+Working LinkedIn description:
+
+> Building an operating platform for independent bicycle shops, developed from hands-on work inside real shop operations. PedalFish starts with the service workflow—from intake through repair and customer handoff—and is expanding toward a broader operational intelligence layer for owner-operated shops.
+>
+> I lead the product, engineering and technical strategy while also working directly in the operating environment the software is designed to support.
+
+Refine this before publishing, especially as current product capabilities and public positioning evolve. Keep the description grounded in what exists; avoid making PedalFish sound like a funded company with a large team or claiming future capabilities as shipped.
+
+### Relationship to Sulcata
+
+Current direction is **PedalFish and Sulcata, not necessarily PedalFish instead of Sulcata**.
+
+They communicate different evidence:
+
+- **Sulcata** — experienced technology leader doing consulting/advisory work.
+- **PedalFish** — founder/builder who identified a real problem and is creating and operating a product around it.
+
+If both remain genuinely active, concurrent LinkedIn experience is reasonable.
+
+### Resume follow-through
+
+When PedalFish is added to LinkedIn, review the engineering-leadership resume at the same time so the two tell a coherent story. PedalFish should strengthen the narrative of an experienced engineering leader who remains hands-on and product-oriented, rather than accidentally making the resume read as though Brian has left the employment market to run a startup full time.
