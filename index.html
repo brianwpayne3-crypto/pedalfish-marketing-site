@@ -9,132 +9,51 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="PedalFish home">
-      <img class="brand-logo" src="assets/brand/pedalfish-logo.webp" alt="" aria-hidden="true">
-      <span>PedalFish</span>
-    </a>
-    <a class="header-link" href="#early-users">Early users</a>
+    <a class="brand" href="#top" aria-label="PedalFish home"><img class="brand-logo" src="assets/brand/pedalfish-logo.webp" alt=""><span>PedalFish</span></a>
+    <nav class="site-nav" aria-label="Primary"><a href="#service-foundation">Product</a><a href="#shop-intelligence">Why PedalFish</a><a href="#early-users">For Shops</a></nav>
+    <a class="button header-button" href="#early-users">Get early access</a>
   </header>
 
   <main id="top">
     <section class="hero section-shell">
       <div class="hero-copy">
-        <p class="eyebrow">Built inside real bike-shop operations</p>
+        <p class="eyebrow">An operating platform for independent bike shops</p>
         <h1>Independent doesn't mean doing everything yourself.</h1>
-        <p class="hero-lede">PedalFish is an operating platform for independent bike shops — built to help owner-operators run the business behind the bikes.</p>
-        <div class="hero-actions">
-          <a class="button" href="#shop-intelligence">See where PedalFish is going</a>
-          <a class="text-link" href="#service-foundation">See where it starts →</a>
-        </div>
+        <p class="hero-lede">PedalFish helps independent bike shops manage the work behind the bikes — and is being built to understand what's actually happening across the shop.</p>
+        <div class="hero-actions"><a class="button" href="#early-users">Get early access</a><a class="secondary-button" href="#service-foundation">See how it works</a></div>
+        <p class="hero-footnote">Built for independent bike shops.</p>
       </div>
 
-      <div class="product-stage" aria-label="Placeholder for a sanitized PedalFish product image">
-        <div class="stage-label">REAL PRODUCT</div>
-        <div class="stage-window">
-          <div class="stage-bar"><span></span><span></span><span></span></div>
-          <div class="stage-content">
-            <p class="stage-kicker">PedalFish</p>
-            <h2>Know what's happening. Know what needs attention.</h2>
-            <div class="stage-grid">
-              <div><strong>Ready</strong><span>Work the shop can do now</span></div>
-              <div><strong>Waiting</strong><span>Jobs blocked on something else</span></div>
-              <div><strong>Parts</strong><span>What needs to be sourced</span></div>
-              <div><strong>Next</strong><span>The work that needs attention</span></div>
-            </div>
+      <div class="hero-product" aria-label="PedalFish Shop View example using synthetic demo data">
+        <span class="scribble scribble-left">See what<br>needs attention</span>
+        <span class="scribble scribble-right">Keep work<br>moving</span>
+        <div class="app-frame">
+          <div class="app-nav"><span class="app-brand"><img src="assets/brand/pedalfish-logo.webp" alt=""> SHOP</span><span>New Intake</span><span>Service Requests</span><span>Open Jobs</span><strong>Shop View</strong><span>Parts</span></div>
+          <div class="app-body">
+            <div class="app-title"><div><h2>Shop View</h2><p>What should the shop do next?</p></div><span>Today</span></div>
+            <div class="shop-group incoming"><div class="group-heading"><div><h3>Review incoming service requests</h3><p>New customer requests waiting for review.</p></div><b>2</b></div><div class="job-grid"><div class="job-card"><small>SERVICE REQUEST</small><strong>Review service request</strong><span>Maya Chen · Commuter e-bike</span></div><div class="job-card"><small>SERVICE REQUEST</small><strong>Review service request</strong><span>Daniel Ortiz · Gravel bike</span></div></div></div>
+            <div class="shop-group ready"><div class="group-heading"><div><h3>Jobs ready to work</h3><p>Jobs with work the shop can do now.</p></div><b>6</b></div><div class="job-grid"><div class="job-card"><strong>Alex Morgan <em>· Touring bike</em></strong><small>NEXT ACTION</small><span class="next">Perform Bike Tune-up</span></div><div class="job-card"><strong>Sam Rivera <em>· Cargo e-bike</em></strong><small>NEXT ACTION</small><span class="next">Perform Safety Check-up</span></div><div class="job-card"><strong>Jamie Lee <em>· Road bike</em></strong><small>NEXT ACTION</small><span class="next">Perform Flat Fix</span></div><div class="job-card"><strong>Taylor Brooks <em>· Hybrid</em></strong><small>NEXT ACTION</small><span class="next">Install Chain</span></div></div></div>
+            <div class="shop-group waiting"><div class="group-heading"><div><h3>Waiting</h3><p>Jobs waiting on someone or something before work can continue.</p></div><b>1</b></div><div class="waiting-row">Jordan Kim · Trail bike <strong>Waiting on part</strong></div></div>
           </div>
         </div>
-        <p class="stage-note">Sanitized product imagery will replace this placeholder.</p>
       </div>
     </section>
 
-    <section class="statement">
-      <div class="narrow-shell">
-        <p>Being great at fixing bikes shouldn't require being great at every operational task it takes to run a bike shop.</p>
-      </div>
+    <section class="statement"><div class="narrow-shell"><p>Being great at fixing bikes shouldn't require being great at every operational task it takes to run a bike shop.</p></div></section>
+
+    <section class="difference" id="shop-intelligence"><div class="section-shell difference-grid"><div><p class="eyebrow">Built to understand the shop</p><h2>Not another chatbot.</h2></div><div class="difference-copy"><p>The intelligence in PedalFish is being built on the actual operational record of the shop — customers, bikes, repairs, parts, commitments and work in progress.</p><p>The more of the operation PedalFish understands, the more useful it can become: helping surface what needs attention, which jobs are stuck, what needs to be ordered, who needs an update and where the shop is losing time.</p></div></div></section>
+
+    <section class="workflow section-shell" id="service-foundation"><div class="section-intro"><p class="eyebrow">It starts with service</p><h2>Build intelligence on top of the work that's actually happening.</h2><p>Service is the first deep PedalFish workflow because it creates a durable operational record from the moment a bike comes in until it goes home.</p></div>
+      <article class="workflow-step"><div class="step-number">01</div><div class="step-copy"><h3>Take it in</h3><p>Capture the bike, what the customer is asking for, authorized service, expectations, pricing and a photo. The job starts with a record everyone can come back to.</p></div><div class="product-placeholder">Intake Acknowledgement</div></article>
+      <article class="workflow-step reverse"><div class="step-number">02</div><div class="step-copy"><h3>See what's next</h3><p>See what is ready to work, what is waiting, and the concrete next action — without reconstructing the day from sticky notes, texts and memory.</p></div><div class="product-placeholder">Shop View</div></article>
+      <article class="workflow-step"><div class="step-number">03</div><div class="step-copy"><h3>Do the work</h3><p>Keep authorized service, mechanic work, checklists, blockers and the changing reality of the repair together as the job moves forward.</p></div><div class="product-placeholder">Active Job Detail</div></article>
+      <article class="workflow-step reverse"><div class="step-number">04</div><div class="step-copy"><h3>Close the loop</h3><p>Finish with a durable record of what was actually done, the service results and what the customer needs to know when the bike goes home.</p></div><div class="product-placeholder">Completed Work Summary</div></article>
     </section>
 
-    <section class="difference" id="shop-intelligence">
-      <div class="section-shell difference-grid">
-        <div>
-          <p class="eyebrow">Built to understand the shop</p>
-          <h2>Not another chatbot.</h2>
-        </div>
-        <div class="difference-copy">
-          <p>The intelligence in PedalFish is being built on the actual operational record of the shop — customers, bikes, repairs, parts, commitments and work in progress.</p>
-          <p>The more of the operation PedalFish understands, the more useful it can become: helping surface what needs attention, which jobs are stuck, what needs to be ordered, who needs an update and where the shop is losing time.</p>
-        </div>
-      </div>
-    </section>
+    <section class="difference"><div class="section-shell difference-grid"><div><p class="eyebrow">Why PedalFish</p><h2>Software should strengthen an independent shop, not standardize it.</h2></div><div class="difference-copy"><p>PedalFish is being shaped inside actual bicycle-shop work by mechanics and owner-operators. The goal isn't to automate the shop or prescribe one way to run it.</p><p>Service is the foundation, not the boundary. The same operational understanding can extend into customer communication, parts and procurement, shop coordination and the decisions an owner has to make every day.</p></div></div></section>
 
-    <section class="workflow section-shell" id="service-foundation">
-      <div class="section-intro">
-        <p class="eyebrow">It starts with service</p>
-        <h2>Build intelligence on top of the work that's actually happening.</h2>
-        <p>Service is the first deep PedalFish workflow because it creates a durable operational record from the moment a bike comes in until it goes home.</p>
-      </div>
-
-      <article class="workflow-step">
-        <div class="step-number">01</div>
-        <div class="step-copy">
-          <h3>Take it in</h3>
-          <p>Capture the bike, what the customer is asking for, authorized service, expectations, pricing and a photo. The job starts with a record everyone can come back to.</p>
-        </div>
-        <div class="product-placeholder">Intake Acknowledgement</div>
-      </article>
-
-      <article class="workflow-step reverse">
-        <div class="step-number">02</div>
-        <div class="step-copy">
-          <h3>See what's next</h3>
-          <p>See what is ready to work, what is waiting, and the concrete next action — without reconstructing the day from sticky notes, texts and memory.</p>
-        </div>
-        <div class="product-placeholder">Shop View</div>
-      </article>
-
-      <article class="workflow-step">
-        <div class="step-number">03</div>
-        <div class="step-copy">
-          <h3>Do the work</h3>
-          <p>Keep authorized service, mechanic work, checklists, blockers and the changing reality of the repair together as the job moves forward.</p>
-        </div>
-        <div class="product-placeholder">Active Job Detail</div>
-      </article>
-
-      <article class="workflow-step reverse">
-        <div class="step-number">04</div>
-        <div class="step-copy">
-          <h3>Close the loop</h3>
-          <p>Finish with a durable record of what was actually done, the service results and what the customer needs to know when the bike goes home.</p>
-        </div>
-        <div class="product-placeholder">Completed Work Summary</div>
-      </article>
-    </section>
-
-    <section class="difference">
-      <div class="section-shell difference-grid">
-        <div>
-          <p class="eyebrow">Why PedalFish</p>
-          <h2>Software should strengthen an independent shop, not standardize it.</h2>
-        </div>
-        <div class="difference-copy">
-          <p>PedalFish is being shaped inside actual bicycle-shop work by mechanics and owner-operators. The goal isn't to automate the shop or prescribe one way to run it.</p>
-          <p>Service is the foundation, not the boundary. The same operational understanding can extend into customer communication, parts and procurement, shop coordination and the decisions an owner has to make every day.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="early-users section-shell" id="early-users">
-      <p class="eyebrow">Early users</p>
-      <h2>Run a bike shop? We'd like to hear how you work.</h2>
-      <p>PedalFish is being built alongside real shop operations. We're interested in talking with independent shops, mechanics and mobile repair operators who want to help shape what comes next.</p>
-      <a class="button" href="mailto:hello@pedalfish.com?subject=PedalFish%20early%20user">Start a conversation</a>
-      <p class="cta-note">Contact address is provisional until the public PedalFish contact route is confirmed.</p>
-    </section>
+    <section class="early-users section-shell" id="early-users"><p class="eyebrow">Early users</p><h2>Run a bike shop? We'd like to hear how you work.</h2><p>PedalFish is being built alongside real shop operations. We're interested in talking with independent shops, mechanics and mobile repair operators who want to help shape what comes next.</p><a class="button" href="mailto:hello@pedalfish.com?subject=PedalFish%20early%20user">Start a conversation</a><p class="cta-note">Contact address is provisional until the public PedalFish contact route is confirmed.</p></section>
   </main>
-
-  <footer class="site-footer">
-    <span>PedalFish</span>
-    <span>Built for independent bike shops.</span>
-  </footer>
+  <footer class="site-footer"><span>PedalFish</span><span>Built for independent bike shops.</span></footer>
 </body>
 </html>
