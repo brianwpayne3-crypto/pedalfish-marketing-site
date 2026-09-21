@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Brian Payne
+N:Payne;Brian;;;
+ORG:PedalFish
+TITLE:Builder
+EMAIL;TYPE=INTERNET:hello@pedal-fish.com
+URL:https://pedal-fish.com/brian
+URL:https://brianwpayne.com
+END:VCARD
