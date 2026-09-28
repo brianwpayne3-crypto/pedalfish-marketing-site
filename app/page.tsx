@@ -9,6 +9,10 @@ export default function HomePage() {
         <a className="brand" href="#top" aria-label="PedalFish home">
           <img src="/images/pedalfish-logo.png" alt="PedalFish" />
         </a>
+        <nav className="site-nav" aria-label="Primary navigation">
+          <a href="#features">Features</a>
+          <a href="#feature-matrix">Feature Matrix</a>
+        </nav>
         <a className="header-cta" href="mailto:hello@pedal-fish.com?subject=PedalFish%20early%20user">Talk to us <span aria-hidden="true">↗</span></a>
       </header>
 

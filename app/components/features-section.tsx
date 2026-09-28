@@ -8,7 +8,7 @@ const supportingCapabilities = ["Completion & QC", "Test Rides", "Service Histor
 
 export default function FeaturesSection() {
   return (
-    <section className="features-section" aria-labelledby="features-title">
+    <section className="features-section" id="features" aria-labelledby="features-title">
       <div className="features-intro">
         <p className="eyebrow">Built for the whole service operation</p>
         <h2 id="features-title">Everything connected around the work.</h2>
