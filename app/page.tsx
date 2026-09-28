@@ -1,5 +1,6 @@
 import ProductShowcase from "./components/product-showcase";
 import FeaturesSection from "./components/features-section";
+import FeatureMatrix from "./components/feature-matrix";
 
 export default function HomePage() {
   return (
@@ -36,6 +37,7 @@ export default function HomePage() {
       </section>
 
       <FeaturesSection />
+      <FeatureMatrix />
 
     </main>
   );
