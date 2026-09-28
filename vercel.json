@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/brian", "destination": "/brian/index.html" },
+    { "source": "/brian/", "destination": "/brian/index.html" },
+    { "source": "/brian.css", "destination": "/brian/brian.css" },
+    { "source": "/brian.vcf", "destination": "/brian/brian.vcf" }
+  ]
+}
