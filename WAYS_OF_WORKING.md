@@ -91,3 +91,48 @@ V1 is a single-page static GitHub Pages site. Do not add a CMS, pricing system, 
 ## Brian remains the product/brand decision-maker
 
 Drafts and generated concepts are working material, not automatic decisions. Do not treat generated copy, taglines, visual treatments, or positioning as approved merely because they appeared in a concept image or implementation.
+
+## Development and deployment workflow
+
+### Local development comes first
+
+All implementation work starts and is validated in Brian's local development environment. Codex should run the site locally, inspect the rendered result, and iterate there before treating any hosted deployment as a review surface.
+
+Do not use the production domain as a development environment.
+
+### Vercel is the preview and eventual production host
+
+The intended deployment flow for the redesigned site is:
+
+**local development → Git branch / pull request → Vercel Preview → explicit approval → Vercel Production**
+
+Use Vercel Preview deployments for hosted review once the local implementation is ready. Do not change production hosting, DNS, or the custom domain as part of ordinary implementation work.
+
+The current GitHub Pages site remains the production fallback until an explicit cutover decision.
+
+### Domain changes are a separate cutover step
+
+The `pedal-fish.com` domain is managed through Namecheap. DNS changes are handled separately after the Vercel production deployment has been approved. Codex should not attempt to modify DNS or infer that a code merge authorizes a domain cutover.
+
+### No database or backend by default
+
+The marketing site is expected to remain static and should not have a database, authentication system, application backend, or CMS unless a concrete future requirement justifies one.
+
+Do not add infrastructure merely because the chosen framework supports it.
+
+### Prefer a conventional, inexpensive implementation
+
+Use straightforward Next.js + TypeScript and ordinary responsive web techniques. Minimize dependencies, build complexity, token-heavy exploration, and custom infrastructure. Optimize for fast local iteration, reliable production builds, and easy Vercel previews.
+
+### Protect production while redesigning
+
+Redesign work belongs on a development branch until explicitly approved. Do not modify the live GitHub Pages deployment, `main`, production DNS, or the production domain simply to preview work.
+
+Before production cutover, verify at minimum:
+
+- production build passes
+- desktop and phone layouts are intentional
+- public imagery contains no real customer information
+- links and assets work
+- no development-only artifacts are visible
+- the Vercel Preview has been reviewed
