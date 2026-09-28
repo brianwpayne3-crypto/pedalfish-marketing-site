@@ -11,7 +11,7 @@ const groups: FeatureGroup[] = [
 
 export default function FeatureMatrix() {
   return (
-    <section className="feature-matrix" aria-labelledby="matrix-title">
+    <section className="feature-matrix" id="feature-matrix" aria-labelledby="matrix-title">
       <div className="matrix-heading"><div><p className="eyebrow">Quick glance</p><h2 id="matrix-title">What PedalFish covers.</h2></div><p>One view of the capabilities around a bike, a job, and the shop.</p></div>
       <div className="matrix-legend" aria-label="Capability status legend"><span><i className="status-check" aria-hidden="true">✓</i> Available</span><span><i className="status-dev" aria-hidden="true">·</i> In development</span></div>
       <div className="matrix-table" role="table" aria-label="PedalFish capabilities">
