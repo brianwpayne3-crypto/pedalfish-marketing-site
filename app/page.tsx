@@ -1,4 +1,5 @@
 import ProductShowcase from "./components/product-showcase";
+import FeaturesSection from "./components/features-section";
 
 export default function HomePage() {
   return (
@@ -33,6 +34,8 @@ export default function HomePage() {
         <div><span className="proof-index">03</span><strong>Do the work</strong><small>Keep service moving.</small></div>
         <div><span className="proof-index">04</span><strong>Close the loop</strong><small>Leave a useful history.</small></div>
       </section>
+
+      <FeaturesSection />
 
     </main>
   );
